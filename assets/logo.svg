@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Tideline battery logo">
+  <defs>
+    <clipPath id="body4"><rect x="52" y="60" width="120" height="136" rx="24"/></clipPath>
+    <linearGradient id="fill4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#41a7ff"/>
+      <stop offset="1" stop-color="#1f6fd6"/>
+    </linearGradient>
+  </defs>
+  <!-- bateria vertical -->
+  <g clip-path="url(#body4)">
+    <rect x="52" y="120" width="120" height="76" fill="url(#fill4)"/>
+    <path d="M52 120 q 15 -14 30 0 t 30 0 t 30 0 t 30 0 V 196 H 52 Z" fill="url(#fill4)"/>
+  </g>
+  <rect x="52" y="60" width="120" height="136" rx="24" fill="none" stroke="#16324f" stroke-width="11"/>
+  <rect x="96" y="40" width="32" height="16" rx="7" fill="#16324f"/>
+  <!-- marcas de limite (fim 80 / início 20) -->
+  <line x1="176" y1="92" x2="196" y2="92" stroke="#16324f" stroke-width="9" stroke-linecap="round"/>
+  <line x1="176" y1="164" x2="196" y2="164" stroke="#16324f" stroke-width="9" stroke-linecap="round"/>
+</svg>

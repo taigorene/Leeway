@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="Leeway app icon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef6ff"/>
+      <stop offset="1" stop-color="#d3e7ff"/>
+    </linearGradient>
+    <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#41a7ff"/>
+      <stop offset="1" stop-color="#1f6fd6"/>
+    </linearGradient>
+    <clipPath id="bat"><rect x="402" y="300" width="220" height="300" rx="48"/></clipPath>
+  </defs>
+  <rect x="0" y="0" width="1024" height="1024" rx="230" fill="url(#bg)"/>
+  <g clip-path="url(#bat)">
+    <rect x="402" y="455" width="220" height="145" fill="url(#fill)"/>
+    <path d="M402 455 q 27 -26 55 0 t 55 0 t 55 0 t 55 0 V 600 H 402 Z" fill="url(#fill)"/>
+  </g>
+  <rect x="402" y="300" width="220" height="300" rx="48" fill="none" stroke="#16324f" stroke-width="22"/>
+  <rect x="476" y="262" width="72" height="34" rx="14" fill="#16324f"/>
+  <line x1="636" y1="372" x2="678" y2="372" stroke="#16324f" stroke-width="20" stroke-linecap="round"/>
+  <line x1="636" y1="528" x2="678" y2="528" stroke="#16324f" stroke-width="20" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 640" width="520" height="640" font-family="-apple-system, SF Pro Text, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b3a55"/>
+      <stop offset="1" stop-color="#3a5a78"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="640" rx="20" fill="url(#wall)"/>
+
+  <!-- barra de menus -->
+  <rect x="0" y="0" width="520" height="34" rx="20" fill="#1c2433" opacity="0.55"/>
+  <rect x="356" y="4" width="84" height="26" rx="7" fill="#ffffff" opacity="0.22"/>
+  <text x="368" y="22" fill="#ffffff" font-size="15">⛵ 80%</text>
+  <text x="452" y="22" fill="#cdd6e4" font-size="15">􀊫</text>
+  <text x="480" y="22" fill="#cdd6e4" font-size="13">13:42</text>
+
+  <!-- dropdown -->
+  <rect x="40" y="46" width="440" height="560" rx="14" fill="#2c2c30" opacity="0.98"/>
+  <rect x="40" y="46" width="440" height="560" rx="14" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <text x="64" y="84" fill="#8d9099" font-size="15">80% · carga pausada · na tomada</text>
+  <line x1="56" y1="100" x2="464" y2="100" stroke="#ffffff" stroke-opacity="0.10"/>
+
+  <text x="64" y="134" fill="#e8e8ea" font-size="16">Desligado (carga normal)</text>
+
+  <rect x="52" y="148" width="416" height="34" rx="7" fill="#3b82f6"/>
+  <text x="64" y="170" fill="#ffffff" font-size="16">✓ Sailing (segura em 80%)</text>
+
+  <text x="64" y="206" fill="#e8e8ea" font-size="16">Forçar descarga (ciclo 20–80%)</text>
+  <text x="64" y="242" fill="#e8e8ea" font-size="16">Manter o Mac acordado (no Força)</text>
+
+  <line x1="56" y1="262" x2="464" y2="262" stroke="#ffffff" stroke-opacity="0.10"/>
+
+  <text x="64" y="296" fill="#e8e8ea" font-size="16">Início da carga: 20%  <tspan fill="#8d9099">(alterar…)</tspan></text>
+  <text x="64" y="332" fill="#e8e8ea" font-size="16">Fim da carga: 80%  <tspan fill="#8d9099">(alterar…)</tspan></text>
+
+  <line x1="56" y1="352" x2="464" y2="352" stroke="#ffffff" stroke-opacity="0.10"/>
+
+  <text x="64" y="386" fill="#e8e8ea" font-size="16">Sobre o Leeway…</text>
+  <text x="64" y="422" fill="#e8e8ea" font-size="16">Como instalar / atualizar o batt…</text>
+  <text x="64" y="458" fill="#e8e8ea" font-size="16">Sair (volta ao normal)</text>
+</svg>
